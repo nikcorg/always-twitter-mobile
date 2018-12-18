@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Always Twitter Mobile",
+  "description": "Ensure all visits to Twitter are to mobile.twitter.com",
+  "version": "1.0",
+  "permissions": [
+    "*://*.twitter.com/*",
+    "*://twitter.com/*",
+    "webNavigation",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
