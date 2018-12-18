@@ -17,7 +17,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     url.protocol = "https";
     url.host = "mobile.twitter.com";
 
-    return { redirectUrl: url.toJSON() };
+    return { redirectUrl: url.toString() };
   },
   { urls: ["*://*.twitter.com/*", "*://twitter.com/*"] },
   ["blocking"]
