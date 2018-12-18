@@ -10,7 +10,6 @@
   "permissions": [
     "*://*.twitter.com/*",
     "*://twitter.com/*",
-    "webNavigation",
     "webRequest",
     "webRequestBlocking"
   ],
