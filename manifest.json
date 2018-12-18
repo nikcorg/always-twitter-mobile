@@ -1,5 +1,6 @@
 {
   "manifest_version": 2,
+  "homepage_url": "https://github.com/nikcorg/always-twitter-mobile",
   "name": "Always Twitter Mobile",
   "description": "Ensure all visits to Twitter are to mobile.twitter.com",
   "version": "1.0",
