@@ -1,9 +1,12 @@
 {
-  "manifest_version": 2,
-  "homepage_url": "https://github.com/nikcorg/always-twitter-mobile",
-  "name": "Always Twitter Mobile",
+  "background": {
+    "persistent": true,
+    "scripts": ["background.js"]
+  },
   "description": "Ensure all visits to Twitter are to mobile.twitter.com",
-  "version": "1.0",
+  "homepage_url": "https://github.com/nikcorg/always-twitter-mobile",
+  "manifest_version": 2,
+  "name": "Always Twitter Mobile",
   "permissions": [
     "*://*.twitter.com/*",
     "*://twitter.com/*",
@@ -11,8 +14,5 @@
     "webRequest",
     "webRequestBlocking"
   ],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": true
-  }
+  "version": "1.0"
 }
