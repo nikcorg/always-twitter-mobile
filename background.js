@@ -17,6 +17,10 @@ chrome.webRequest.onBeforeRequest.addListener(
     url.protocol = "https";
     url.host = "mobile.twitter.com";
 
+    if (url.pathname === "/intent/tweet") {
+      url.pathname = "/compose/tweet";
+    }
+
     return { redirectUrl: url.toString() };
   },
   { urls: ["*://*.twitter.com/*", "*://twitter.com/*"] },
