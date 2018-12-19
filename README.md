@@ -5,3 +5,17 @@ The mobile.twitter.com website is the superior way for consuming Twitter. This C
 ## Installing
 
 Install [Always Twitter Mobile](https://chrome.google.com/webstore/detail/always-twitter-mobile/hlllkhnplkipaaaiiebbahkigjkdepmk) to your browser.
+
+## Changelog
+
+### 1.2
+
+- Bugfix: direct linking to Compose Tweet has a different path on mobile
+
+### 1.1
+
+- Bugfix: don't rely on [`URL.toJSON{}`](https://developer.mozilla.org/en-US/docs/Web/API/URL/toJSON)
+
+### 1.0
+
+- Initial release
