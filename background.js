@@ -17,7 +17,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     url.protocol = "https";
     url.host = "mobile.twitter.com";
 
-    if (url.pathname === "/intent/tweet") {
+    if (url.pathname === "/intent/tweet" || url.pathname === "/share") {
       url.pathname = "/compose/tweet";
     }
 
