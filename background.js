@@ -10,7 +10,11 @@ chrome.webRequest.onBeforeRequest.addListener(
 
     const url = new URL(details.url);
 
-    if (url.host === "mobile.twitter.com") {
+    if (
+      url.host === "mobile.twitter.com" ||
+      url.host === "blog.twitter.com" ||
+      url.host === "developer.twitter.com"
+    ) {
       return {};
     }
 
