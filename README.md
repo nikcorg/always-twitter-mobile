@@ -8,6 +8,13 @@ Install [Always Twitter Mobile](https://chrome.google.com/webstore/detail/always
 
 ## Changelog
 
+### 1.3
+
+- Bugfix: handle linking to `/share`
+- Bugfix: whitelist some Twitter hosts
+  - `developer.twitter.com`
+  - `blog.twitter.com`
+
 ### 1.2
 
 - Bugfix: direct linking to Compose Tweet has a different path on mobile
