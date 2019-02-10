@@ -14,7 +14,8 @@ chrome.webRequest.onBeforeRequest.addListener(
       url.host === "mobile.twitter.com" ||
       url.host === "blog.twitter.com" ||
       url.host === "developer.twitter.com" ||
-      url.host === "support.twitter.com"
+      url.host === "support.twitter.com" ||
+      url.host === "help.twitter.com"
     ) {
       return {};
     }
