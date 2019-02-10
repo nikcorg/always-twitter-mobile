@@ -21,7 +21,7 @@ Install [Always Twitter Mobile](https://chrome.google.com/webstore/detail/always
 
 ### 1.1
 
-- Bugfix: don't rely on [`URL.toJSON{}`](https://developer.mozilla.org/en-US/docs/Web/API/URL/toJSON)
+- Bugfix: don't rely on [`URL.toJSON()`](https://developer.mozilla.org/en-US/docs/Web/API/URL/toJSON)
 
 ### 1.0
 
