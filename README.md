@@ -1,12 +1,12 @@
 # Always Twitter Mobile
 
-The mobile.twitter.com website is the superior way for consuming Twitter. This browser extension ensures you will never have to suffer the UX of the non-mobile website.
+The [mobile.twitter.com](https://mobile.twitter.com) website is the superior way for consuming Twitter. This browser extension ensures you will never have to suffer the poorer UX of the desktop website.
 
 ## Installing
 
-Install *Always Twitter Mobile* to your browser:
+Install the *Always Twitter Mobile* browser extension:
 
-- [Chrome](https://addons.mozilla.org/en-GB/firefox/addon/always-twitter-mobile/)
+- [Chrome](https://chrome.google.com/webstore/detail/always-twitter-mobile/hlllkhnplkipaaaiiebbahkigjkdepmk)
 - [Firefox Addon](https://addons.mozilla.org/en-GB/firefox/addon/always-twitter-mobile/)
 
 ## Changelog
