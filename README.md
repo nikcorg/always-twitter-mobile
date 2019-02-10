@@ -11,6 +11,10 @@ Install the *Always Twitter Mobile* browser extension:
 
 ## Changelog
 
+### 1.4
+
+- Bugfix: whitelist `support.twitter.com`
+
 ### 1.3
 
 - Bugfix: handle linking to `/share`
