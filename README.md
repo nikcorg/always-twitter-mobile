@@ -11,6 +11,10 @@ Install the *Always Twitter Mobile* browser extension:
 
 ## Changelog
 
+### 1.6
+
+- Bugfix: whitelist `oauth`
+
 ### 1.5
 
 - Bugfix: whitelist `help.twitter.com`
