@@ -11,6 +11,10 @@ Install the *Always Twitter Mobile* browser extension:
 
 ## Changelog
 
+### 1.7
+
+- Bugfix: whitelist [Request Advertiser List](https://mobile.twitter.com/settings/your_twitter_data/audiences) 
+
 ### 1.6
 
 - Bugfix: whitelist `oauth`
