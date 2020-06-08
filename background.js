@@ -11,7 +11,6 @@ chrome.webRequest.onBeforeRequest.addListener(
     const url = new URL(details.url);
 
     if (
-      (url.host !== "twitter.com" && url.host !== "www.twitter.com") ||
       url.pathname.startsWith("/oauth") ||
       url.pathname.startsWith(
         "/account/personalization/download_advertiser_list.pdf"
