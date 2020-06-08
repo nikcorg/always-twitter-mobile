@@ -13,12 +13,12 @@ Install the _Always Twitter Mobile_ browser extension:
 
 ### 1.9
 
-- Permissions: limit host permission to twitter.com and www.twitter.com only
+- Permissions: limit host permission to `twitter.com` and `www.twitter.com` only
 - Refactor: remove host check in plugin code entirely
 
 ### 1.8
 
-- Refactor: opt-out host check (match only www.twitter.com and twitter.com) instead of opt-in, which required maintaining list of known hosts
+- Refactor: opt-out host check (match only `www.twitter.com` and `twitter.com`) instead of opt-in, which required maintaining list of known hosts
 
 ### 1.7
 
