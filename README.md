@@ -4,7 +4,7 @@ The [mobile.twitter.com](https://mobile.twitter.com) website is the superior way
 
 ## Installing
 
-Install the *Always Twitter Mobile* browser extension:
+Install the _Always Twitter Mobile_ browser extension:
 
 - [Chrome](https://chrome.google.com/webstore/detail/always-twitter-mobile/hlllkhnplkipaaaiiebbahkigjkdepmk)
 - [Firefox Addon](https://addons.mozilla.org/en-GB/firefox/addon/always-twitter-mobile/)
