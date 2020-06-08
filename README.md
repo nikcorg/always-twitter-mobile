@@ -22,24 +22,24 @@ Install the _Always Twitter Mobile_ browser extension:
 
 ### 1.7
 
-- Bugfix: whitelist [Request Advertiser List](https://mobile.twitter.com/settings/your_twitter_data/audiences) 
+- Bugfix: allow requests to [Request Advertiser List](https://mobile.twitter.com/settings/your_twitter_data/audiences)
 
 ### 1.6
 
-- Bugfix: whitelist `oauth`
+- Bugfix: allow requests to `/oauth`
 
 ### 1.5
 
-- Bugfix: whitelist `help.twitter.com`
+- Bugfix: allow requests to `help.twitter.com`
 
 ### 1.4
 
-- Bugfix: whitelist `support.twitter.com`
+- Bugfix: allow requests to `support.twitter.com`
 
 ### 1.3
 
 - Bugfix: handle linking to `/share`
-- Bugfix: whitelist some Twitter hosts
+- Bugfix: allow request to some Twitter hosts
   - `developer.twitter.com`
   - `blog.twitter.com`
 
