@@ -11,13 +11,11 @@ chrome.webRequest.onBeforeRequest.addListener(
     const url = new URL(details.url);
 
     if (
-      url.host === "mobile.twitter.com" ||
-      url.host === "blog.twitter.com" ||
-      url.host === "developer.twitter.com" ||
-      url.host === "support.twitter.com" ||
-      url.host === "help.twitter.com" ||
+      (url.host !== "twitter.com" && url.host !== "www.twitter.com") ||
       url.pathname.startsWith("/oauth") ||
-      url.pathname.startsWith("/account/personalization/download_advertiser_list.pdf")
+      url.pathname.startsWith(
+        "/account/personalization/download_advertiser_list.pdf"
+      )
     ) {
       return {};
     }
