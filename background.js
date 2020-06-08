@@ -28,6 +28,6 @@ chrome.webRequest.onBeforeRequest.addListener(
 
     return { redirectUrl: url.toString() };
   },
-  { urls: ["*://*.twitter.com/*", "*://twitter.com/*"] },
+  { urls: ["*://www.twitter.com/*", "*://twitter.com/*"] },
   ["blocking"]
 );
