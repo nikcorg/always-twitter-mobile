@@ -1,3 +1,5 @@
+const commonTrackingParams = /^(utm_.*|t|s)$/;
+
 chrome.webRequest.onBeforeRequest.addListener(
   function(details) {
     if (
@@ -24,6 +26,13 @@ chrome.webRequest.onBeforeRequest.addListener(
 
     if (url.pathname === "/intent/tweet" || url.pathname === "/share") {
       url.pathname = "/compose/tweet";
+    }
+
+    // Strip tracking params
+    for (const k of url.searchParams.keys()) {
+      if (commonTrackingParams.test(k)) {
+        url.searchParams.delete(k);
+      }
     }
 
     return { redirectUrl: url.toString() };

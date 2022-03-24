@@ -11,6 +11,10 @@ Install the _Always Twitter Mobile_ browser extension:
 
 ## Changelog
 
+### 1.10
+
+- Feature: strip some common tracking parameters
+
 ### 1.9
 
 - Permissions: limit host permission to `twitter.com` and `www.twitter.com` only
